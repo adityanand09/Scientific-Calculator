@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4E4D4D</color>
+    <color name="colorPrimaryDark">#787878</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="display_background_color">#FFFFFF</color>
+    <color name="display_formula_text_color">#000000</color>
+    <color name="display_result_text_color">#6D6D6D</color>
+    <color name="adv_panel_bg_color">#000000</color>
+    <color name="num_panel_bg_color">#4E4D4D</color>
+    <color name="num_text_color">#FFFFFF</color>
+    <color name="adv_text_color">#000000</color>
+    <color name="op_text_color">#FFFFFF</color>
+    <color name="calculator_error_color">#C0F01000</color>
+</resources>

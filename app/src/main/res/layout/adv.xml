@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/adv_panel_bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <LinearLayout
+                android:id="@+id/adv_panel_norm_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/fun_sin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_sin"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_cos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_cos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_tan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_tan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/adv_panel_inv_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/fun_sin_inv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_sin_inv"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_cos_inv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_cos_inv"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_tan_inv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_tan_inv"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/fun_shift"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/fun_shift"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/adv_panel_norm_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/fun_sinh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_sinh"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_cosh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_cosh"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_tanh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_tanh"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/adv_panel_inv_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/fun_sinh_inv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_sinh_inv"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_cosh_inv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_cosh_inv"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+                <Button
+                    android:id="@+id/fun_tanh_inv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00FFFFFF"
+                    android:onClick="btnClicked"
+                    android:text="@string/fun_tanh_inv"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/num_text_color" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/fun_ln"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/fun_ln"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/fun_log"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/fun_log"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+        <Button
+            android:id="@+id/fun_fac"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/fun_fac"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+        <Button
+            android:id="@+id/const_pi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/const_pi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+        <Button
+            android:id="@+id/const_e"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/const_e"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/l_paren"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/l_paren"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+        <Button
+            android:id="@+id/r_paren"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/r_paren"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+        <Button
+            android:id="@+id/op_sqrt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/op_sqrt"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+
+
+        <Button
+            android:id="@+id/op_pow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:onClick="btnClicked"
+            android:text="@string/op_pow"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/num_text_color" />
+    </LinearLayout>
+
+</LinearLayout>
